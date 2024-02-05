@@ -22,3 +22,13 @@ Function 1: add_numbers
 1. main. c - Main program file containing the menu and switch logic. (C code)
 2. functions.c - File containing the function definitions. (C code)
 3. functions.h - Header file containing function prototypes. (Header file)
+
+Program Description:
+The program is a menu-driven application that allows users to perform various operations based on their selection. It starts with a command-line switch that enables or disables debugging mode. The program prompts the user with a menu and continuously loops until the user decides to exit. It offers options to add two integers, multiply two floats, reverse a string, or enter two words. Based on the user's input, the program calls the corresponding function and prompts the user for additional information.
+
+Menu Definition and Usage:
+The menu presents the following options:
+1) Add 2 numbers (integers)
+2) Multiply 2 numbers (floats)
+3) Read in a string and reverse the string as output
+4) Enter 2 words
